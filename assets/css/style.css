@@ -1,0 +1,31 @@
+#pageTitle {
+	text-align: center;
+	color: white;
+}
+
+p {
+	text-align: center;
+}
+
+.form-actions {
+	margin: 0;
+	text-align: center;
+}
+
+.questionOptions {
+	margin: 20px;
+	text-align: center;
+}
+
+.submit {
+	margin: 0;
+	text-align: center;
+}
+
+.jumbotron{
+	background-image: url("../images/hogwarts.jpg");
+}
+
+.form-row{
+	color: white;
+}
