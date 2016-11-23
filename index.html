@@ -11,7 +11,7 @@
 	<!-- Insert link to css file -->
 	<link rel="stylesheet" href="assets/css/style.css">
 	<!-- Insert background music! -->
-	<audio src="assets/images/Hedwig.mp3" autoplay="autoplay" loop="loop"></audio>
+	<audio src="assets/images/Hedwig.mp3" autoplay loop></audio>
 	<!-- Insert Start button sound -->
 	<audio id="wizard" src="assets/images/youreawizard.wav"></audio>
 
@@ -25,132 +25,132 @@
 			<button class="btn btn-primary btn-lg" href="#" role="button" id="start">Start!</button>
 		</div>	
 		<div style="display: none;" id="hiddenText">
-			<form>
+			<form id="trivForm">
 	  			<div class="form-row">
 	  				<p id="Q1">1. Where did Harry live in the Dursley's house before he moved to Dudley's second bedroom?</p>
 	    				<div class="questionOptions">
 		    				<div class="btn-group" data-toggle="buttons">
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option1" autocomplete="off"> In the attic 
+		    					<label for="atticRadio">
+		    						<input type="radio" name="myQuestion1" value="Attic" id="atticRadio"> In the attic 
 		    					</label>
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option2" autocomplete="off"> In the garden shed 
+		    					<label for="gardenRadio">
+		    						<input type="radio" name="myQuestion1" value="Garden" id="gardenRadio"> In the garden shed 
 		    					</label>
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option3" autocomplete="off"> In the cellar 
+		    					<label for="cellarRadio">
+		    						<input type="radio" name="myQuestion1" value="Cellar" id="cellarRadio"> In the cellar 
 		    					</label>
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option4" autocomplete="off"> In the cupboard under the stairs 
-		    					</label>
-		    				</div>
-		    			</div>	
-	    			<p id="Q2">2. What house was Hannah Abbot sorted into?</p>
-	    				<div class="questionOptions">
-		    				<div class="btn-group" data-toggle="buttons">
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option5" autocomplete="off"> Hufflepuff 
-		    					</label>
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option6" autocomplete="off"> Ravenclaw 
-		    					</label>
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option7" autocomplete="off"> Slytherin
-		    					</label>
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option8" autocomplete="off"> Gryffindor 
+		    					<label for="cupboardRadio">
+		    						<input type="radio" name="myQuestion1" value="Cupboard" id="cupboardRadio"> In the cupboard under the stairs 
 		    					</label>
 		    				</div>
-		    			</div>		
-	    			<p id="Q3">3. What fruit must one tickle in order to gain access to the kitchens?</p>
-	    				<div class="questionOptions">
-		    				<div class="btn-group" data-toggle="buttons">
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option9" autocomplete="off"> Pear 
-		    					</label>
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option10" autocomplete="off"> Grape 
-		    					</label>
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option11" autocomplete="off"> Orange
-		    					</label>
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option12" autocomplete="off"> Banana 
-		    					</label>
-		    				</div>
-		    			</div>		
-	    			<p id="Q4">4. Malfoy was always surrounded by his cronies, Crabbe and Goyle. What is Crabbe's first name?</p>
-	    				<div class="questionOptions">
-		    				<div class="btn-group" data-toggle="buttons">
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option13" autocomplete="off"> Gregory 
-		    					</label>
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option14" autocomplete="off"> Vincent 
-		    					</label>
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option15" autocomplete="off"> Carl
-		    					</label>
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option16" autocomplete="off"> Marcus 
-		    					</label>
-		    				</div>
-		    			</div>		
-	    			<p id="Q5">5. What is the title of the first chapter of "The Chamber of Secrets"?</p>
-	    				<div class="questionOptions">
-		    				<div class="btn-group" data-toggle="buttons">
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option17" autocomplete="off"> The Worst Birthday 
-		    					</label>
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option18" autocomplete="off"> Dobby's Warning 
-		    					</label>
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option19" autocomplete="off"> The Burrow
-		    					</label>
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option20" autocomplete="off"> Owl Post 
-		    					</label>
-		    				</div>
-		    			</div>		
-	    			<p id="Q6">6. In "The Order of the Phoenix," Harry visits the Ministry of Magic for the first time. In the lobby, there is a statue called The Fountain of Magical Brethren. Which of the following is depicted in that fountain?</p>
-	    				<div class="questionOptions">
-		    				<div class="btn-group" data-toggle="buttons">
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option21" autocomplete="off"> Muggle 
-		    					</label>
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option22" autocomplete="off"> Unicorn 
-		    					</label>
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option23" autocomplete="off"> House-elf
-		    					</label>
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option24" autocomplete="off"> Hippogrif 
-		    					</label>
-		    				</div>
-		    			</div>		
-	    			<p id="Q7">7. Who directed most of the Harry Potter Films?</p>
-	    				<div class="questionOptions">
-		    				<div class="btn-group" data-toggle="buttons">
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option25" autocomplete="off"> Chris Columbus 
-		    					</label>
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option26" autocomplete="off"> Alfonso Cuaron 
-		    					</label>
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option27" autocomplete="off"> Mike Newell
-		    					</label>
-		    					<label class="btn btn-primary">
-		    						<input type="radio" name="options" id="option28" autocomplete="off"> David Yates 
-		    					</label>	
-		    				</div>
-		    			</div>									
+		    			</div>
+		    				<p id="Q2">2. What house was Hannah Abbot sorted into?</p>
+		    				<div class="questionOptions">
+			    				<div class="btn-group" data-toggle="buttons">
+			    					<label for="huffRadio">
+			    						<input type="radio" name="myQuestion2" value="Hufflepuff" id="huffRadio"> Hufflepuff 
+			    					</label>
+			    					<label for="ravenRadio">
+			    						<input type="radio" name="myQuestion2" value="Ravenclaw" id="ravenRadio"> Ravenclaw 
+			    					</label>
+			    					<label for="slythRadio">
+			    						<input type="radio" name="myQuestion2" value="Slytherin" id="slythRadio"> Slytherin
+			    					</label>
+			    					<label for="gryffRadio">
+			    						<input type="radio" name="myQuestion2" value="Gryffindor" id="gryffRadio"> Gryffindor 
+			    					</label>
+			    				</div>
+			    			</div>		
+		    			<p id="Q3">3. What fruit must one tickle in order to gain access to the kitchens?</p>
+		    				<div class="questionOptions">
+			    				<div class="btn-group" data-toggle="buttons">
+			    					<label for="pearRadio">
+			    						<input type="radio" name="myQuestion3" value="Pear" id="pearRadio"> Pear 
+			    					</label>
+			    					<label for="grapeRadio">
+			    						<input type="radio" name="myQuestion3" value="Grape" id="grapeRadio"> Grape 
+			    					</label>
+			    					<label for="orangeRadio">
+			    						<input type="radio" name="myQuestion3" value="Orange" id="orangeRadio"> Orange
+			    					</label>
+			    					<label for="bananaRadio">
+			    						<input type="radio" name="myQuestion3" value="Banana" id="bananaRadio" autocomplete="off"> Banana 
+			    					</label>
+			    				</div>
+			    			</div>		
+		    			<p id="Q4">4. Malfoy was always surrounded by his cronies, Crabbe and Goyle. What is Crabbe's first name?</p>
+		    				<div class="questionOptions">
+			    				<div class="btn-group" data-toggle="buttons">
+			    					<label for="gregRadio">
+			    						<input type="radio" name="myQuestion4" value="Gregory" id="gregRadio"> Gregory 
+			    					</label>
+			    					<label for="vinRadio">
+			    						<input type="radio" name="myQuestion4" value="Vincent" id="vinRadio"> Vincent 
+			    					</label>
+			    					<label for="carlRadio">
+			    						<input type="radio" name="myQuestion4" value="Carl" id="carlRadio"> Carl
+			    					</label>
+			    					<label for="marcusRadio">
+			    						<input type="radio" name="myQuestion4" value="Marcus" id="marcusRadio"> Marcus 
+			    					</label>
+			    				</div>
+			    			</div>		
+		    			<p id="Q5">5. What is the title of the first chapter of "The Chamber of Secrets"?</p>
+		    				<div class="questionOptions">
+			    				<div class="btn-group" data-toggle="buttons">
+			    					<label for="worstRadio">
+			    						<input type="radio" name="myQuestion5" value="The Worst Birthday" id="worstRadio"> The Worst Birthday 
+			    					</label>
+			    					<label for="warningRadio">
+			    						<input type="radio" name="myQuestion5" value="Dobbys Warning" id="warningRadio"> Dobby's Warning 
+			    					</label>
+			    					<label for="burrowRadio">
+			    						<input type="radio" name="myQuestion5" value="The Burrow" id="burrowRadio"> The Burrow
+			    					</label>
+			    					<label for="owlRadio">
+			    						<input type="radio" name="myQuestion5" value="Owl Post" id="owlRadio"> Owl Post 
+			    					</label>
+			    				</div>
+			    			</div>		
+		    			<p id="Q6">6. In "The Order of the Phoenix," Harry visits the Ministry of Magic for the first time. In the lobby, there is a statue called The Fountain of Magical Brethren. Which of the following is depicted in that fountain?</p>
+		    				<div class="questionOptions">
+			    				<div class="btn-group" data-toggle="buttons">
+			    					<label for="muggleRadio">
+			    						<input type="radio" name="myQuestion6" value="Muggle" id="muggleRadio"> Muggle 
+			    					</label>
+			    					<label for="unicornRadio">
+			    						<input type="radio" name="myQuestion6" value="Unicorn" id="unicornRadio"> Unicorn 
+			    					</label>
+			    					<label for="elfRadio">
+			    						<input type="radio" name="myQuestion6" value="House-Elf" id="elfRadio"> House-elf
+			    					</label>
+			    					<label for="hippoRadio">
+			    						<input type="radio" name="myQuestion6" value="Hippogrif" id="hippoRadio"> Hippogrif 
+			    					</label>
+			    				</div>
+			    			</div>		
+		    			<p id="Q7">7. Who directed most of the Harry Potter Films?</p>
+		    				<div class="questionOptions">
+			    				<div class="btn-group" data-toggle="buttons">
+			    					<label for="chrisRadio">
+			    						<input type="radio" name="myQuestion7" value="Chris Columbus" id="chrisRadio"> Chris Columbus 
+			    					</label>
+			    					<label for="alfonsoRadio">
+			    						<input type="radio" name="myQuestion7" value="Alfonso Curaron" id="alfonsoRadio" autocomplete="off"> Alfonso Cuaron 
+			    					</label>
+			    					<label for="mikeRadio">
+			    						<input type="radio" name="myQuestion7" value="Mike Newell" id="mikeRadio"> Mike Newell
+			    					</label>
+			    					<label for="davidRadio">
+			    						<input type="radio" name="myQuestion7" value="David Yates" id="davidRadio"> David Yates 
+			    					</label>	
+			    				</div>
+			    			</div>									
 	  			</div>
 			</form>
 			<div class="submit">
 				<input type="submit" value="submit" myName="Submit Form" id="submitButton" />
-			</div>	
+			</div>
 
 		</div>
 	</div>

@@ -29,3 +29,7 @@ p {
 .form-row{
 	color: white;
 }
+
+label {
+	margin-right: 50px;
+}
